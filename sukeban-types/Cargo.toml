@@ -1,0 +1,7 @@
+[package]
+name = "sukeban-types"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bitflags = "2.9.4"
