@@ -2,7 +2,7 @@ use std::str::Bytes;
 
 use crate::privileges::{clan::ClanPrivileges, user::UserPrivileges};
 
-struct Player {
+pub struct Player {
     id: u32,
     name: String,
     privileges: UserPrivileges,
