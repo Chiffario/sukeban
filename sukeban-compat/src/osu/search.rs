@@ -13,7 +13,7 @@ async fn search(
     todo!()
 }
 
-/// Handler for GET /web/osu-search.php
+/// Handler for GET /web/osu-search-set.php
 ///
 /// Returns a beatmapsets
 async fn mapset_search(player: Player, mapset_id: u32, map_id: u32, checksum: String) {

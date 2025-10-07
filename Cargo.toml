@@ -10,5 +10,8 @@ edition = "2024"
 axum = { version = "0.8.4", features = ["multipart"]}
 serde = "1.0.219"
 serde_json = "1.0.143"
-sqlx = "0.8.6"
 tokio = "1.47.1"
+chrono.workspace = true
+sqlx = { version = "0.8.6", features = ["runtime-tokio-rustls", "chrono", "postgres"] }
+eyre.workspace = true
+futures.workspace = true
